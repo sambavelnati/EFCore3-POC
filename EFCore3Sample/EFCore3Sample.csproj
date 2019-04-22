@@ -11,6 +11,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.0.0-preview4" />
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="2.18.0-beta3" />
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.12" />
   </ItemGroup>
