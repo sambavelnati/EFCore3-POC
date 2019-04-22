@@ -63,3 +63,5 @@ Microsoft.EntityFrameworkCore.SqlServer
 Oracle.EntityFrameworkCore
 ### PostgreSQL
 Npgsql.EntityFrameworkCore.PostgreSQL
+
+# . . .
