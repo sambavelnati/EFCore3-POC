@@ -1,4 +1,5 @@
-# EF Core 3 sample for CRUD operations
+# EFCore3Sample
+EF Core 3 sample for CRUD operations
 
 ## Schema Requirements:
 ### SQL Server:
