@@ -54,7 +54,7 @@ CREATE TABLE "EFCore3Sample"."AppConfig"
 ### Core
 Microsoft.NETCore.App  
 System.Linq.Dynamic.Core 
-### Common
+### EFCore Common
 Microsoft.EntityFrameworkCore  
 Microsoft.EntityFrameworkCore.Tools
 ### SQL Server
