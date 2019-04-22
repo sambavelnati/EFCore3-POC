@@ -13,7 +13,11 @@ namespace EFCore3Sample.Tests
         {
             AppConfigDAL dal = new AppConfigDAL();
             AppConfig config = dal.Select(1, "CONFIG_UPD");
-            Assert.AreEqual(config.ConfigValue, "N");
+
+            if (config == null)
+                Assert.Fail("Record does not exist");
+            else
+                Assert.AreEqual(config.ConfigValue, "N");
         }
     }
 }
