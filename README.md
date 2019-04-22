@@ -1,8 +1,8 @@
 # EFCore3Sample
 EF Core 3 sample for CRUD operations
 
-## Schema Requirements:
-### SQL Server:
+## Schema Requirements
+### SQL Server
   
 ```sql
 CREATE TABLE [EFCore3Sample].[AppConfig](
@@ -18,7 +18,7 @@ CREATE TABLE [EFCore3Sample].[AppConfig](
 CONSTRAINT [PK_AppConfig] PRIMARY KEY CLUSTERED([version]ASC,[ConfigKey]ASC));
 ```
   
-### Oracle:
+### Oracle
 ```sql
 CREATE TABLE "EFCore3Sample"."AppConfig"(  
 "version" NUMBER(10),  
@@ -33,7 +33,7 @@ CREATE TABLE "EFCore3Sample"."AppConfig"(
 CONSTRAINT PK_AppConfig PRIMARY KEY("version","ConfigKey"));
 ``` 
   
-### PostgreSQL:
+### PostgreSQL
 ```sql
 CREATE TABLE "EFCore3Sample"."AppConfig"  
 (  
@@ -50,7 +50,7 @@ CREATE TABLE "EFCore3Sample"."AppConfig"
 )
 ```
   
-## Package Requirements:
+## Package Requirements
 ### Core
 Microsoft.NETCore.App  
 System.Linq.Dynamic.Core 
